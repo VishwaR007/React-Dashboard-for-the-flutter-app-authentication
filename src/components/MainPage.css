@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.mainContainer{
+    background-color: rgb(38, 8, 64);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+h1{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+th:hover{
+    color: white;
+}
+
+th{
+    border: 0.2px solid yellow;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(44, 118, 230);
+    color: black;
+    font-size: 30px;
+}
+
+td{
+    /* border: 0.2px solid yellow; */
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+td:hover{
+    /* background-color: wheat; */
+    border: 0.2px solid yellow;
+    padding: 25px;
+    box-shadow: 2px 5px 5px white;
+    font-weight: bold;
+}
+
+.NotificationButton{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(129, 193, 61);
+    font-size: 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.NotificationButton:hover{
+    background-color: rgb(44, 118, 230);
+    padding: 15px;
+    color: white;
+}
